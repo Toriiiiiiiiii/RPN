@@ -1,0 +1,26 @@
+NODE_PROGRAM (
+  LINE:     0,
+  COL:      0,
+  VAL:      ,
+  CHILDREN: [  NODE_FN (
+    LINE:     0,
+    COL:      7,
+    VAL:      main,
+    CHILDREN: [    NODE_STR (
+      LINE:     1,
+      COL:      17,
+      VAL:      Hello, World!,
+      CHILDREN: []
+    ),     NODE_WRD (
+      LINE:     1,
+      COL:      23,
+      VAL:      print,
+      CHILDREN: []
+    )]
+  ),   NODE_WRD (
+    LINE:     4,
+    COL:      4,
+    VAL:      main,
+    CHILDREN: []
+  )]
+)
