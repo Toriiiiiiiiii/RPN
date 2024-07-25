@@ -19,7 +19,11 @@ def readFile(path: str) -> Union[str, None]:
         return None
 
 if __name__ == "__main__":
-    fileContents = readFile("test.rpn")
+    if len(sys.argv) < 2:
+        print(f"Usage: {sys.argv[0]} <filename>")
+        exit(1)
+
+    fileContents = readFile(sys.argv[1])
 
     if not fileContents:
         quit(1)
